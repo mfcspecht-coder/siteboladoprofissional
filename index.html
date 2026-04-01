@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engenharia Specht - Início</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="Engenharia Specht" class="logo-img">
+            </a>
+            <button class="mobile-menu-toggle" aria-label="Abrir menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <a href="contato.html" class="btn btn-primary">Solicitar orçamento</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content fade-in">
+            <h1>Engenharia com precisão, segurança e eficiência</h1>
+            <p>Projetos estruturais, hidrossanitários e consultoria técnica especializada.</p>
+            <div class="hero-buttons">
+                <a href="contato.html" class="btn btn-primary">Solicitar orçamento</a>
+                <a href="projetos.html" class="btn btn-outline">Ver projetos</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section destaque">
+        <div class="container">
+            <div class="grid diferenciais-grid">
+                <div class="diferencial fade-in">
+                    <i class="fa-solid fa-stopwatch"></i>
+                    <h4>Atendimento Rápido</h4>
+                    <p>Agilidade real no desenvolvimento dos projetos, sem comprometer a qualidade técnica.</p>
+                </div>
+                <div class="diferencial fade-in">
+                    <i class="fa-solid fa-cubes"></i>
+                    <h4>Uso do BIM</h4>
+                    <p>Modelagem inteligente que antecipa problemas e melhora a tomada de decisão.</p>
+                </div>
+                <div class="diferencial fade-in">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h4>Compatibilização</h4>
+                    <p>Integração entre projetos para eliminar conflitos e evitar retrabalho na obra.</p>
+                </div>
+                <div class="diferencial fade-in">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h4>Otimização de Custos</h4>
+                    <p>Estruturas dimensionadas com eficiência para reduzir desperdícios e gastos desnecessários.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">O que dizem os clientes</h2>
+                <div class="title-underline center"></div>
+            </div>
+
+            <div class="grid depoimentos-grid">
+                <div class="depoimento-card fade-in">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Excelente profissional. O projeto estrutural foi entregue antes do prazo e a economia na compra do aço pagou o projeto. Recomendo muito!"</p>
+                    <div class="cliente-info">
+                        <strong>Carlos Mendes</strong>
+                        <span>Proprietário de Imóvel</span>
+                    </div>
+                </div>
+                <div class="depoimento-card fade-in">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"A compatibilização em 3D evitou vários problemas na nossa obra comercial. Comunicação sempre muito clara e técnica irretocável."</p>
+                    <div class="cliente-info">
+                        <strong>Mariana Silva</strong>
+                        <span>Arquiteta Parceira</span>
+                    </div>
+                </div>
+                <div class="depoimento-card fade-in">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Contratei para um laudo técnico do meu apartamento e o documento foi super detalhado e embasado. Resolveu meu problema com o condomínio."</p>
+                    <div class="cliente-info">
+                        <strong>Roberto Alves</strong>
+                        <span>Síndico</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+
+            <!-- COLUNA 1 — Logo + slogan + redes + copyright -->
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <img src="img/icone_Prancheta 1.png" alt="SPEC Engenharia">
+                </div>
+                <p class="footer-slogan">Soluções estruturais eficientes, seguras e econômicas para o Sul do Brasil.</p>
+                <div class="footer-social">
+                    <a href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://wa.me/5554999999999" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <p class="footer-copy">© 2025 SPEC Engenharia Civil. Todos os direitos reservados.</p>
+            </div>
+
+            <!-- COLUNA 2 — Contato -->
+            <div class="footer-col">
+                <div class="footer-col-title">Contato</div>
+                <div class="footer-contact-item">
+                    <div class="footer-contact-name">Eng. Matheus Specht</div>
+                    <div class="footer-contact-phone-row">
+                        <span>(54) 9 9999-9999</span>
+                        <a href="https://wa.me/5554999999999" class="footer-whatsapp-icon" title="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <a href="/cdn-cgi/l/email-protection#55363a3b2134213a1526253036303b32303b3d34273c347b363a387b3727" class="footer-contact-email"><span class="__cf_email__" data-cfemail="1f7c70716b7e6b705f6c6f7a7c7a71787a71777e6d767e317c7072317d6d">[email&#160;protected]</span></a>
+            </div>
+
+            <!-- COLUNA 3 — Localização + email -->
+            <div class="footer-col">
+                <div class="footer-col-title">Localização</div>
+                <div class="footer-address">Erechim, Rio Grande do Sul<br>Atendimento em todo o Sul do Brasil</div>
+                <div class="footer-email-form">
+                    <label class="footer-email-label">Seu email</label>
+                    <input type="email" class="footer-email-input" placeholder="Digite seu email aqui">
+                    <button class="footer-email-btn">Enviar mensagem</button>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5511987654321?text=Olá,%20gostaria%20de%20falar%20sobre%20um%20projeto%20de%20engenharia." class="whatsapp-btn" t

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Engenharia Specht</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ═══════════ HEADER ═══════════ -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="Engenharia Specht" class="logo-img">
+            </a>
+            <button class="mobile-menu-toggle" aria-label="Abrir menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <a href="contato.html" class="btn btn-primary">Solicitar orçamento</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ═══════════ BANNER ═══════════ -->
+    <div class="page-banner">
+        <div class="container">
+            <h1 class="fade-in">Entre em contato</h1>
+            <p class="fade-in">Conte-nos sobre seu projeto e retornaremos em até 24 horas úteis.</p>
+        </div>
+    </div>
+
+    <!-- ═══════════ CONTEÚDO PRINCIPAL ═══════════ -->
+    <main class="bg-light" style="flex:1;">
+        <section class="section">
+            <div class="container">
+                <div class="contato-wrapper">
+
+                    <!-- ── Coluna de informações ── -->
+                    <div class="contato-info-col fade-in">
+
+                        <div class="info-block">
+                            <div class="info-block-icon">
+                                <i class="fa-solid fa-user-tie"></i>
+                            </div>
+                            <div class="info-block-text">
+                                <h4>Responsável Técnico</h4>
+                                <p>Eng. Matheus Specht<br>CREA-RS 000000-D</p>
+                                <a href="https://wa.me/5554999999999?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento." class="whatsapp-inline" target="_blank">
+                                    <i class="fa-brands fa-whatsapp"></i> Chamar no WhatsApp
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="info-block">
+                            <div class="info-block-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="info-block-text">
+                                <h4>Telefone</h4>
+                                <a href="tel:+5554999999999">(54) 9 9999-9999</a>
+                            </div>
+                        </div>
+
+                        <div class="info-block">
+                            <div class="info-block-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="info-block-text">
+                                <h4>E-mail</h4>
+                                <a href="/cdn-cgi/l/email-protection#62010d0c1603160d2211120701070c05070c0a03100b034c010d0f4c0010"><span class="__cf_email__" data-cfemail="690a06071d081d06291a190c0a0c070e0c0701081b0008470a0604470b1b">[email&#160;protected]</span></a>
+                            </div>
+                        </div>
+
+                        <div class="info-block">
+                            <div class="info-block-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="info-block-text">
+                                <h4>Localização</h4>
+                                <p>Erechim, Rio Grande do Sul<br>Atendimento em todo o Sul do Brasil</p>
+                            </div>
+                        </div>
+
+                        <div class="info-block">
+                            <div class="info-block-icon">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div class="info-block-text">
+                                <h4>Horário de Atendimento</h4>
+                                <p>Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 12h</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- ── Coluna do formulário ── -->
+                    <div class="contato-form-col fade-in">
+
+                        <h3>Solicite um orçamento</h3>
+                        <p class="form-subtitle">Preencha o formulário e entraremos em contato o mais breve possível.</p>
+
+                        <form id="contato-form" novalidate>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="nome">Nome <span class="required">*</span></label>
+                                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                                    <span class="form-error-msg">Informe seu nome.</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="telefone">Telefone <span class="required">*</span></label>
+                                    <input type="tel" id="telefone" name="telefone" placeholder="(00) 9 0000-0000" required>
+                                    <span class="form-error-msg">Informe seu telefone.</span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">E-mail <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                                <span class="form-error-msg">Informe um e-mail válido.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="servico">Serviço de Interesse</label>
+                                <select id="servico" name="servico">
+                                    <option value="" disabled selected>Selecione um serviço</option>
+                                    <option value="estrutural">Projeto Estrutural</option>
+                                    <option value="hidrossanitario">Projeto Hidrossanitário</option>
+                                    <option value="regularizacao">Regularização de Obra</option>
+                                    <option value="laudo">Laudo Técnico</option>
+                                    <option value="acompanhamento">Acompanhamento de Obra</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem <span class="required">*</span></label>
+                                <textarea id="mensagem" name="mensagem" placeholder="Descreva brevemente seu projeto ou dúvida..." required></textarea>
+                                <span class="form-error-msg">Escreva sua mensagem.</span>
+                            </div>
+
+                            <button type="submit" class="btn-submit">
+                                <i class="fa-solid fa-paper-plane"></i> Enviar mensagem
+                            </button>
+
+                        </form>
+
+                        <!-- Tela de sucesso — exibida pelo main.js após envio -->
+                        <div class="form-success" id="form-success">
+                            <div class="success-icon">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <h4>Mensagem enviada!</h4>
+                            <p>Recebemos seu contato e retornaremos em até 24 horas úteis. Obrigado!</p>
+                            <button class="btn-novo-contato" id="btn-novo-contato">Enviar outra mensagem</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── Mapa ── -->
+        <div class="mapa-section">
+            <div class="container">
+                <p class="mapa-label">
+                    <i class="fa-solid fa-map-pin"></i> Erechim, Rio Grande do Sul
+                </p>
+                <div class="mapa-inner">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57618.8!2d-52.2727!3d-27.6344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e1dc0e2fa4c8e7%3A0x1c4e8c94c7e2baf2!2sErechim%2C%20RS!5e0!3m2!1spt-BR!2sbr!4v1700000000000"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Localização - Erechim, RS">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- ═══════════ FOOTER ═══════════ -->
+    <footer class="footer">
+        <div class="container footer-container">
+
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <img src="/img/icone_Prancheta 1.png" alt="SPEC Engenharia">
+                </div>
+                <p class="footer-slogan">Soluções estruturais eficientes, seguras e econômicas para o Sul do Brasil.</p>
+                <div class="footer-social">
+                    <a href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://wa.me/5554999999999" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <p class="footer-copy">© 2025 SPEC Engenharia Civil. Todos os direitos reservados.</p>
+            </div>
+
+            <div class="footer-col">
+                <div class="footer-col-title">Contato</div>
+                <div class="footer-contact-item">
+                    <div class="footer-contact-name">Eng. Matheus Specht</div>
+                    <div class="footer-contact-phone-row">
+                        <span>(54) 9 9999-9999</span>
+                        <a href="https://wa.me/5554999999999" class="footer-whatsapp-icon" title="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <a href="/cdn-cgi/l/email-protection#4c2f2322382d38230c3f3c292f29222b2922242d3e252d622f2321622e3e" class="footer-contact-email"><span class="__cf_email__" data-cfemail="abc8c4c5dfcadfc4ebd8dbcec8cec5cccec5c3cad9c2ca85c8c4c685c9d9">[email&#160;protected]</span></a>
+            </div>
+
+            <div class="footer-col">
+                <div class="footer-col-title">Localização</div>
+                <div class="footer-address">Erechim, Rio Grande do Sul<br>Atendimento em todo o Sul do Brasil</div>
+                <div class="footer-email-form">
+                    <label class="footer-email-label">Seu email</label>
+                    <input type="email" class="footer-email-input" placeholder="Digite seu email aqui">
+                    <button class="footer-email-btn">Enviar mensagem</button>
+                </div>
+            </div>
+
+        </div>
+ 
